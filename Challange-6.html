@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="U-XA-Compitible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="home-6.css">
+    <title>Gaming</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h3>CART GAME</h3>
+        <h4 id="result">Ariyan Khan(mobinahmed)</h4>
+        <div class="flex-box-container1">
+            <div id="you">
+                <h4>You: <span id="yourScore">0</span></h4>
+            </div>
+            <div id="dealer">
+                <h4>Computer: <span id="dealerScore">0</span></h4>
+            </div>
+        </div>
+        <div class="flex-box-container2">
+            <div>
+                <button class="btn btn-success" id="hit" onclick="blackJackHit()">You</button>
+                <button class="btn btn-success" id="stand">Computer</button>
+                <button class="btn btn-success" id="deal">Refresh</button>
+            </div>
+        </div>
+        <div class="flex-box-container3">
+            <table>
+                <tr>
+                    <td>Wins</td>
+                    <td>Losses</td>
+                    <td>Draws</td>
+                </tr>
+                <tr>
+                    <td id="winner">0</td>
+                    <td id="losser">0</td>
+                    <td id="draw">0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="javascript-6.js"></script>
+</body>
+</html>

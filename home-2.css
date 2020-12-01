@@ -1,0 +1,24 @@
+.container{
+	border: 5px ridge blue;
+	width: 75%;
+	margin: 0 auto;
+	/* padding: 10px; */
+	text-align: center;
+	background-color: silver;
+}
+.flex-box-container{
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.flex-box-container img{
+	display: flex;
+	margin: 10px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-shadow: 0px 0px 30px 10px red;
+	height: 120px;
+	width: 120px;
+}

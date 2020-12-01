@@ -1,0 +1,61 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+    border: 5px ridge rgb(48, 10, 87);
+    background-color: rgb(211, 15, 15);
+    text-align: center;
+    /* padding: 10px; */
+    /* height: 300px; */
+    /* max-height: auto; */
+}
+.flex-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid white;
+    /* margin: 10px; */
+    padding: 10px;
+    /* background-color: rgb(48, 10, 87); */
+    background: url("img1.jpg");
+}
+.flex-box-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid white;
+    /* margin: 10px; */
+    padding: 10px;
+    background-color: slategray
+    /* background: url("img1.jpg"); */
+}
+.flex-box-container-2 div{
+    /* width: 50%; */
+    /* display: flex; */
+    flex: 1;
+    height: auto;
+    /* max-height: 800px; */
+    border: 1px solid white;
+    padding: 10px;
+}
+.flex-box-container-2 div h4{
+    color: black;
+}
+.flex-box-container-2 div img{
+    margin: 10px;
+}
+.flex-box-container div button{
+    border: 2px solid black;
+}
+.flex-box-container div{
+    border: 3px ridge black;
+    padding: 10px;
+}
+.flex-box-container table tr{
+    border: 2px solid black;
+}
+.flex-box-container table td{
+    border: 2px solid black;
+    padding: 10px;
+}

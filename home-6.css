@@ -1,0 +1,38 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+    height: auto;
+    background-color: darkcyan;
+}
+.flex-box-container1,.flex-box-container2,.flex-box-container3{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.flex-box-container1,.flex-box-container2{
+    background-color: darkgoldenrod;
+}
+.flex-box-container1 div{
+    border: 1px solid black;
+    flex:1;
+    padding: 10px;
+}
+.flex-box-container2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-box-container3 table,tr,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-box-container1{
+    height: 300px;
+}
+.flex-box-container1 div h4{
+    color: white;
+}

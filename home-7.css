@@ -1,0 +1,16 @@
+.container{
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+.flex-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
